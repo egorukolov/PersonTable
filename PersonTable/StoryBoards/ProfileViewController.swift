@@ -19,7 +19,7 @@ class ProfileViewController: UIViewController {
         phoneLabel.text = person.phone
         emailLabel.text = person.email
         
-        navigationItem.title = person.fullName
+         title = person.fullName
     }
     
 

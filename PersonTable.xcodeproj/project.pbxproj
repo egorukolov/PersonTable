@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		562F1A2D2B2F28F0003D3DF6 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562F1A2C2B2F28F0003D3DF6 /* TabBarViewController.swift */; };
 		568E9AEB2B1B6D1C000D0014 /* SecondPersonsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568E9AEA2B1B6D1C000D0014 /* SecondPersonsListTableViewController.swift */; };
 		568E9AF12B1CD20D000D0014 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568E9AF02B1CD20D000D0014 /* ProfileViewController.swift */; };
 		56CB70ED2B1B662400C5820F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CB70EC2B1B662400C5820F /* AppDelegate.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		562F1A2C2B2F28F0003D3DF6 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		568E9AEA2B1B6D1C000D0014 /* SecondPersonsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPersonsListTableViewController.swift; sourceTree = "<group>"; };
 		568E9AF02B1CD20D000D0014 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		56CB70E92B1B662400C5820F /* PersonTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +53,7 @@
 				56CB71002B1B668900C5820F /* PersonsListTableViewController.swift */,
 				568E9AEA2B1B6D1C000D0014 /* SecondPersonsListTableViewController.swift */,
 				568E9AF02B1CD20D000D0014 /* ProfileViewController.swift */,
+				562F1A2C2B2F28F0003D3DF6 /* TabBarViewController.swift */,
 			);
 			path = StoryBoards;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				562F1A2D2B2F28F0003D3DF6 /* TabBarViewController.swift in Sources */,
 				56CB70ED2B1B662400C5820F /* AppDelegate.swift in Sources */,
 				56CB70EF2B1B662400C5820F /* SceneDelegate.swift in Sources */,
 				56CB71052B1B670700C5820F /* StorageManager.swift in Sources */,

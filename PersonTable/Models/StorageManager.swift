@@ -9,6 +9,8 @@ class StorageManager {
     
     static let shared = StorageManager()
     
+    private init() {}
+    
     let names = ["John", "Aaron", "Tim", "Ted", "Steven", "Hugo"]
     let surnames = ["Smith", "Dow", "Isaacson", "Pennyworth", "Jankins", "Boss"]
     

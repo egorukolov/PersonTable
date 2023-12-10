@@ -9,7 +9,7 @@ import UIKit
 
 class PersonsListTableViewController: UITableViewController {
     
-    var persons = Person.getPersons()
+    var persons: [Person] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,13 +18,7 @@ class PersonsListTableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
-//    override func numberOfSections(in tableView: UITableView) -> Int {
-//        // #warning Incomplete implementation, return the number of sections
-//        persons.count
-//    }
-
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
         persons.count
     }
 
@@ -33,6 +27,7 @@ class PersonsListTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "firstListCell", for: indexPath)
 
         cell.textLabel?.text = persons[indexPath.row].fullName
+        
 
         return cell
     }
