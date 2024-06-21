@@ -14,7 +14,9 @@ class TabBarViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
         setupViewControllers(with: persons)
+        
     }
     
     private func setupViewControllers(with persons: [Person]) {

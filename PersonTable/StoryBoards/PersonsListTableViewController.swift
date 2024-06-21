@@ -13,7 +13,8 @@ class PersonsListTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+    
+        
     }
 
     // MARK: - Table view data source
@@ -28,9 +29,13 @@ class PersonsListTableViewController: UITableViewController {
 
         cell.textLabel?.text = persons[indexPath.row].fullName
         
-
         return cell
     }
+    
+//    override func tableView(_ tableView: UITableView, moveRowAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath) {
+//        let currentPerson = persons.remove(at: sourceIndexPath.row)
+//        persons.insert(currentPerson, at: destinationIndexPath.row)
+//    }
     
 
     /*
